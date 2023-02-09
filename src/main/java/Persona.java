@@ -41,4 +41,7 @@ public class Persona {
         this.edad = edad;
         this.nombre = nombre;
     }
+    public Persona(){
+
+    }
 }
