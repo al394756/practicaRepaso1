@@ -1,4 +1,4 @@
-public class Vehiculos {
+public class Vehiculos implements Propiedad{
     private String matricula;
     private Persona propietario;
     private boolean circular;
@@ -38,5 +38,10 @@ public class Vehiculos {
             this.circular = circular;
             this.propietario = propietario;
         }
+    }
+
+    @Override
+    public void pagar() {
+        System.out.println("He pagado un vehiculo");
     }
 }
